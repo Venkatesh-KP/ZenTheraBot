@@ -31,7 +31,7 @@ safety_settings = [
     },
 ]
 
-genai.configure(api_key="AIzaSyBrnxplbFtZZLwQaaKYNt1NcvHFqnv50Ww")  # Replace with your API key
+genai.configure(api_key="Enter your API key")  # Replace with your API key
 
 # Creating the GenerativeModel object
 model = genai.GenerativeModel(model_name="gemini-1.0-pro-001",
